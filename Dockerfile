@@ -4,7 +4,7 @@ FROM openjdk:17-alpine
 WORKDIR /app
 
 # Копируем файлы приложения в контейнер
-COPY target/ipp-0.0.1-SNAPSHOT.jar /app
+COPY target/delpoytest-0.0.1-SNAPSHOT.jar /app
 
 # Открываем порт, на котором будет работать приложение
 EXPOSE 8080
