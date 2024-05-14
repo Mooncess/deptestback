@@ -10,4 +10,4 @@ COPY target/delpoytest-0.0.1-SNAPSHOT.jar /app
 EXPOSE 8080
 
 # Запускаем приложение при старте контейнера
-CMD ["java", "-jar", "ipp-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "delpoytest-0.0.1-SNAPSHOT.jar"]
